@@ -7,7 +7,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path=" /" element={<RequestPage />} />
+        <Route path="/request" element={<RequestPage />} />
       </Routes>
     </Router>
   );
