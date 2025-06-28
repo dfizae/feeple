@@ -53,10 +53,18 @@ function GenreSelector() {
             <li onClick={() => handleGenreClick("data2")} className={activeGenre === "data2" ? "on" : ""}>대중음악</li>
             <li onClick={() => handleGenreClick("data3")} className={activeGenre === "data3" ? "on" : ""}>전자음악</li>
             <li onClick={() => handleGenreClick("data4")} className={activeGenre === "data4" ? "on" : ""}>힙합&알앤비</li>
+            <li onClick={() => handleGenreClick("data5")} className={activeGenre === "data5" ? "on" : ""}>
+              <input
+                type="text"
+                id="custom-gen"
+                maxLength={10}
+                placeholder="직접 입력"
+              />
+            </li>
           </ul>
         </div>
         <div id="option-list-det">
-          <h1 style={{ display: activeGenre && activeGenre !== "data1" ? "block" : "none" }}>세부장르</h1>
+          <h1 style={{ display: activeGenre && activeGenre !== ("data1") && activeGenre !== ("data5") ? "block" : "none" }}>세부장르</h1>
           {["data2", "data3", "data4"].map((id) => (
             <ul
               className="list-set"
