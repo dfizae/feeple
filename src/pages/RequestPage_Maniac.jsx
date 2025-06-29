@@ -56,7 +56,10 @@ function App() {
               showReference={true}
             />
             <CautionSection />
-            <Footer onSubmit={handleSubmit} name={"장기원"} price={"19,000원"}/>
+            <Footer 
+            onSubmit={handleSubmit} 
+            feedbackText="취미인 5인 피드백"  
+            price={"19,000원"}/>
           </div>
           <Modal
             visible={isModalOpen}

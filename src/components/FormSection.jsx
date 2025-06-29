@@ -5,6 +5,7 @@ import FileUploader from "./FildUploader";
 import ExplainFields from "./ExplainFields";
 import ReferenceInputs from "./ReferenceInputs";
 import ExtraOpinion from "./ExtraOpinion";
+import CautionSection from "./CautionSection";
 
 function FormSection({
   activeGenre,
@@ -13,6 +14,7 @@ function FormSection({
   setTitle,
   onOpenModal,
   setLinkInput,
+  showReference = true,
 }) {
   return (
     <section id="bd-2">
@@ -23,12 +25,12 @@ function FormSection({
             setActiveGenre={setActiveGenre}
           />
           <FileUploader />
-          <ExplainFields
-            title={title}
-            setTitle={setTitle}
-          />
-          <ReferenceInputs onOpenModal={onOpenModal} setLinkInput={setLinkInput} />
-          <ExtraOpinion />
+          {showReference && (
+            <ReferenceInputs onOpenModal={onOpenModal} setLinkInput={setLinkInput} />
+          )}
+          {showReference && (
+            <ExtraOpinion />
+          )}
         </div>
       </div>
     </section>

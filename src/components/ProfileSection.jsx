@@ -1,16 +1,16 @@
 import React from "react";
 
-function ProfileSection() {
+function ProfileSection({subtitle = "전문가에게 피드백을 받아보세요.", showProfile = true}) {
   return (
     <section id="bd-1">
       <div className="container">
         <div id="bd-1-wrap">
           <h1>피드백 요청하기</h1>
-          <h5>전문가에게 피드백을 받아보세요.</h5>
-          <div id="profile">
+          <h5>{subtitle}</h5>
+          {showProfile && (<div id="profile">
             <div id="profile-img">
               <img src="" alt="프로필사진" />
-              <img src="img/ico-feepleLogo_2.svg" alt="feeple 로고" />
+              <img src="/img/ico-feepleLogo_2.svg" alt="feeple 로고" />
             </div>
             <div id="profile-comment">
               <div id="personal">
@@ -24,7 +24,7 @@ function ProfileSection() {
                 </span>
               </div>
             </div>
-          </div>
+          </div>)}
         </div>
       </div>
     </section>

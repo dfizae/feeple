@@ -8,7 +8,7 @@ function Header() {
           <div id="head-first-option-wrap">
             <div id="head-logo">
               <a href="#">
-                <img src="img/ico-feepleLogo.svg" alt="헤더 로고" />
+                <img src="/img/ico-feepleLogo.svg" alt="헤더 로고" />
               </a>
             </div>
             <nav id="gnb">
