@@ -12,13 +12,17 @@
 
 
 
+# 홈페이지 링크
+링크: https://feeple-forsubmit.vercel.app/
+
+
 # 일반인, 취미인, 전문가 피드백 요청 링크 (vercal)
 
-1. 일반인 링크 - 
+1. 일반인 링크 - https://feeple-forsubmit.vercel.app/request/Experts
 
-2. 취미인 링크 - 
+2. 취미인 링크 - https://feeple-forsubmit.vercel.app/request/Maniac
 
-3. 전문가 링크 - 
+3. 전문가 링크 - https://feeple-forsubmit.vercel.app/request/Normal
 
 
 
