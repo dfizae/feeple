@@ -18,12 +18,11 @@
 
 # 일반인, 취미인, 전문가 피드백 요청 링크 (vercal)
 
-1. 일반인 링크 - https://feeple-forsubmit.vercel.app/request/Experts
-
+1. 일반인 링크 - https://feeple-forsubmit.vercel.app/request/Normal
+  
 2. 취미인 링크 - https://feeple-forsubmit.vercel.app/request/Maniac
 
-3. 전문가 링크 - https://feeple-forsubmit.vercel.app/request/Normal
-
+3. 전문가 링크 - https://feeple-forsubmit.vercel.app/request/Experts
 
 # 파일 업로드 용 오디오 파일
 
